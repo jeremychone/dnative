@@ -1,0 +1,22 @@
+{
+  "name": "dnative-monorepo-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo-build": "node scripts/demo-build.js",
+    "demo-watch": "node scripts/demo-build.js -- -w",
+    "ui-assets-build": "node scripts/build-ui-assets.js"
+  },
+  "dependencies": {
+    "d3-ease": "^3.0.1",
+    "tslib": "^2.8.1",
+    "utils-min": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/d3-ease": "^3.0.2",
+    "chokidar": "^5.0.0",
+    "lightningcss": "^1.33.0",
+    "rolldown": "^1.2.0",
+    "typescript": "^7.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "dnui",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Minimalist UI Elements to be used with dnative",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rolldown -c rolldown.config.js",
+    "build-min": "rolldown -c rolldown.min.config.js",
+    "watch": "rolldown -c -w"
+  },
+  "peerDependencies": {
+    "dnative": "^0.12.0"
+  },
+  "devDependencies": {
+    "dnative": "file:../dnative",
+    "rolldown": "^1.2.0",
+    "typescript": "^7.0.0"
+  },
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dnative/dnative.git"
+  },
+  "keywords": [
+    "domnative",
+    "dom native",
+    "frameworkless",
+    "framework",
+    "Web Components",
+    "Native Web Components",
+    "customElements",
+    "cssGrid",
+    "DOM",
+    "mvc",
+    "html5"
+  ]
+}

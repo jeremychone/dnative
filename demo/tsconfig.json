@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ES2022",
+
+
+	  "rootDir": "../",
+		"outDir": "./dist/", /* Redirect output structure to the directory. */
+		"paths": {
+			"dnative": [
+				"../dnative/src/index.ts"
+			],
+			"dnative/dnd": [
+				"../dnative/src/dnd/index.ts"
+			],
+			"dnui": [
+				"../dnui/src/index.ts"
+			]
+		},
+		"allowJs": false,
+		"checkJs": false,
+		"strict": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"esModuleInterop": true,
+
+		"experimentalDecorators": true
+	},
+	"include": [
+		"./src/**/*.ts",
+		"../dnative/src/**/*.ts",
+		"../dnui/src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
+
